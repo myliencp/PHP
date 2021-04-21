@@ -1,0 +1,26 @@
+[
+    {
+        "nombre": "Dardo",
+        "apellidos": "Schuster",
+        "email": "dardoschuster@gmail.com",
+        "contraseña": "pepe",
+        "hash": "7dcd340d84f762eba80aa538b0c527f7",
+        "vigente": true
+    },
+    {
+        "nombre": "Juan",
+        "apellidos": "Perez",
+        "email": "dardoschuster@gmail.com",
+        "contraseña": "12",
+        "hash": "33e75ff09dd601bbe69f351039152189",
+        "vigente": false
+    },
+    {
+        "nombre": "sdf",
+        "apellidos": "asdf",
+        "email": "dardoschuster@hotmail.com",
+        "contraseña": "12",
+        "hash": "2b8a61594b1f4c4db0902a8a395ced93",
+        "vigente": false
+    }
+]

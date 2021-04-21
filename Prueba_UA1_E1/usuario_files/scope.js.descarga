@@ -1,0 +1,2 @@
+define("util/scope",[],function(){return function(e,t){t=t||window;for(var i=e?e.split(/\./):[],n=0,a=i.length;a>n;n++)t=t[i[n]]||(t[i[n]]={});return t}});
+//@ sourceMappingURL=scope.js.map

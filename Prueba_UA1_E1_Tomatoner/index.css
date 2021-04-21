@@ -1,0 +1,49 @@
+#logo-imagen {
+    float: left;
+	padding: 15px 0 0 10px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background: url(imagenes/fondo2.png) no-repeat center center fixed; 
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+}
+header {
+    height: 13vh;
+}
+.cuerpo {
+    height: 90vh;
+    
+}
+footer {
+    height: 6vh;
+}
+/* a:link,a:visited, a:active{
+    text-decoration: none;
+    color: white;
+} */
+
+#cerrarSesion{
+    background:rgb(99, 96, 96);
+    color: white;
+    width:125px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-radius:4px;
+    border: #1C79BD 1px solid;    
+    /* margin-top:10px;
+    margin-bottom:20px; */
+    float:right;
+    margin-right:10px;
+    font-weight:800;
+    font-size:0.8em;
+}
+
+#cerrarSesion:hover{
+    background:black; 
+  }

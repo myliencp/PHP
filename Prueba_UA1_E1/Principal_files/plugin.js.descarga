@@ -1,0 +1,2 @@
+define("jquery/ui/plugin",["jquery","jquery/ui/version"],function(e){return function(e){return e.ui.plugin={add:function(t,a,i){var n,r=e.ui[t].prototype;for(n in i)r.plugins[n]=r.plugins[n]||[],r.plugins[n].push([a,i[n]])},call:function(e,t,a,i){var n,r=e.plugins[t];if(r&&(i||e.element[0].parentNode&&11!==e.element[0].parentNode.nodeType))for(n=0;n<r.length;n++)e.options[r[n][0]]&&r[n][1].apply(e.element,a)}}}(e),e});
+//@ sourceMappingURL=plugin.js.map

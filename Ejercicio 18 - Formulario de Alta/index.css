@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+header {
+    height: 13vh;
+}
+.cuerpo {
+    height: 70vh;
+}
+footer {
+    height: 6vh;
+}

@@ -1,0 +1,162 @@
+﻿/* Define custom fonts */
+
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('fonts/ballpark.eot');
+    src: url('fonts/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ballpark.woff') format('woff'),
+         url('fonts/ballpark.ttf') format('truetype'),
+         url('fonts/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('fonts/dayrom.eot');
+    src: url('fonts/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('fonts/dayrom.woff') format('woff'),
+         url('fonts/dayrom.ttf') format('truetype'),
+         url('fonts/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 0.8em;
+}
+
+/* Encabezado */
+
+header {
+	background: #333;
+	color: white;
+	height: 120px;
+}	
+header a {
+	color: white;
+}
+/*
+ * Logo
+ */
+#logo-imagen {
+    float: left;
+	padding: 15px 0 0 10px;
+}
+
+ #logo-empresa {
+	float: left;
+    padding: 35px 0 0 5px;
+    text-align: center;
+	text-decoration: none;
+}
+#logo-empresa:hover {
+    color: #0b76a6;
+}
+
+#logo-empresa .nombre {
+    display: block;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+#logo-empresa .descripcion {
+    display: block;
+    font-weight: 300;
+    font-size: 0.8em;
+}
+	
+
+/*
+ * Navegación
+ */
+nav {
+	float: right;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+    nav ul li {
+        display: inline-block;
+        line-height: 80px;
+    }
+        
+    nav ul li a {
+        display: block;
+        padding: 0 10px;
+        text-decoration: none;
+    }
+    
+    nav ul li a:hover {
+        background: #0b76a6;
+    }
+
+/* Pie de pagina */
+footer {
+    display: block;
+	background: #333;
+	color: white;
+	text-align: center;
+    padding: 25px;
+	margin-top: 20px;
+}
+	
+footer a {
+    padding: 25px;
+	color: white;
+}
+
+footer img {
+    float: right;
+    margin-top: -10px;
+    padding: 1px;
+}
+/* Cuerpo de la pagina */
+
+body
+{
+    background: rgb(172, 196, 240);
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+}
+
+#personales {
+    width: 40%;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    background-color: #1E7ABE;
+    border: 3px solid rgba(0, 0, 0, 0.8);
+    /* padding: 10px; */
+  }
+
+  .elemento {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .imagen {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+  }
+  .boton{    
+    width: 100px;
+    height: 20px;
+    border:1px solid #000;
+    border-radius:5px;
+    color:#fff;
+    background-color:rgb(56, 55, 55);  
+    
+}
+.boton:hover{
+    cursor:pointer;
+}
+

@@ -1,0 +1,15 @@
+body {
+    margin :0;
+    padding:0;
+}
+#cuerpo {
+    display: flex;
+    height: 100vh;
+}
+#formulario {
+    width: 100vw;
+}
+#aside {
+    width: 30vw;
+    background: rgb(198, 231, 148);
+}

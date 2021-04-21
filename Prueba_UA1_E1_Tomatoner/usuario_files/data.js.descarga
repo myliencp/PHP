@@ -1,0 +1,2 @@
+define("jquery/ui/data",["jquery","jquery/ui/version"],function(e){return function(e){return e.extend(e.expr[":"],{data:e.expr.createPseudo?e.expr.createPseudo(function(t){return function(a){return!!e.data(a,t)}}):function(t,a,i){return!!e.data(t,i[3])}})}(e),e});
+//@ sourceMappingURL=data.js.map

@@ -1,0 +1,100 @@
+/*globals document, window, require, WebFontConfig*/
+/*jslint unparam:true*/
+
+/**
+ * Vanilla Theme Javascript Extension
+ */
+
+// head modifications
+(function () {
+    'use strict';
+
+    // add link element for font awesome to document
+    // add meta element for scale functionality to document
+    var head = document.head,
+        fontAwesome = document.createElement('link'),
+        viewport = document.createElement('meta'),
+        webfontLoader = document.createElement('link');
+
+    // Add Font Awesome
+    fontAwesome.setAttribute('rel', 'stylesheet');
+    fontAwesome.setAttribute('href', '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+    // Manipulate Viewport
+    viewport.setAttribute('name', 'viewport');
+    viewport.setAttribute('content', 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0');
+
+    // Enable Google Font Loading
+    webfontLoader.type = 'text/css';
+    webfontLoader.setAttribute('rel', 'stylesheet');
+    webfontLoader.setAttribute('href', '//fonts.googleapis.com/css?family=Nothing+You+Could+Do::latin');
+
+    // Append new head elements
+    head.appendChild(fontAwesome);
+    head.appendChild(viewport);
+    head.appendChild(webfontLoader);
+}());
+
+
+// epages
+require([
+    "jquery",
+    "$dict!ep/dict",
+
+    "$ready!"
+], function ($, dict) {
+    'use strict';
+
+    var setFooter = function (loaded) {
+        if ($(window).height() > $('body').height()) {
+            $('.FooterContainer').css({
+                'bottom': '0',
+                'position': 'fixed',
+                'width': '100%'
+            });
+        } else if (loaded) {
+            $('.FooterContainer').css({
+                'bottom': 'auto',
+                'position': 'static'
+            });
+        }
+    };
+
+    $(document).on('facetssearch:loaded', function () {
+        setFooter(true);
+    });
+
+    setFooter();
+    $('<h3>' + dict.translate('Contact') +'</h3>').insertBefore('.FooterContainer .PropertyContainer .SizeContainer.custom-container.custom-right .ContextBox .BoxContainer .ContextBoxBody');
+});
+
+
+require([
+    "jquery",
+
+    "ep/color",
+    "$ready!"
+], function ($) {
+    'use strict';
+
+    // set number for basket icon
+    var $basket = $('.BasketBox span:first-child'),
+        basketCount = /[0-9]{1,}|0/.exec($basket.text());
+
+    // get the number of articles inside the basket
+    if (basketCount !== null && parseInt(basketCount[0]) > 0) {
+        $basket.addClass('hasProducts');
+    }
+
+    $('.BasketBox span:last').addClass('fa fa-shopping-cart');
+    window.setTimeout(function () {
+        $('.BreadcrumbItem').parent().append('<span class="fa fa-angle-right LeftSmallPadding RightSmallPadding"></span>');
+    }, 200);
+    $('.LinkProductRecommendation').parent().prepend('<span class="fa fa-envelope RightSmallMargin"></span>');
+    $('input.LinkAddShoppingList').parent().prepend('<span class="fa fa-file-text"></span>');
+    $('a.LinkAddShoppingList').parent().prepend('<span class="fa fa-file-text RightSmallMargin"></span>');
+    $('.LinkProductInquiry').parent().prepend('<span class="fa fa-question-circle RightSmallMargin"></span>');
+    $('.LinkProductRating').parent().prepend('<span class="fa fa-star RightSmallMargin"></span>');
+    $('.LinkCompareProduct').parent().prepend('<span class="fa fa-arrows-h RightSmallMargin"></span>');
+    $('.FooterContainer .PropertyContainer .ContextBox .BoxContainer .ContextBoxBody').children().removeClass('FloatLeft').addClass('FloatTop TopMargin');
+});

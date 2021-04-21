@@ -1,0 +1,147 @@
+{"profesores":[
+    {
+        "id": 1,
+        "nombre": "Dardo",
+        "apellidos": "Schuster González",
+        "email": "dardoschuster@hotmail.com",
+        "telefono": "676459553",
+        "web": "www.tenerifesystem.com",
+        "imagen": "dardo.jpg"
+    }
+],"alumnos":[
+    {
+        "id": 1,
+        "nombre": "ANGEL DOMINGO",
+        "apellidos": "ARBELO PLASENCIA",
+        "email": "",
+        "telefono": "",
+        "web": "",
+        "imagen": "notiene.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "DAVID",
+        "apellidos": "CAMACHO DIAZ",
+        "email": "",
+        "telefono": "",
+        "web": "",
+        "imagen": "notiene.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "EDUARDO",
+        "apellidos": "CAMACHO DIAZ",
+        "email": "",
+        "telefono": "",
+        "web": "",
+        "imagen": "notiene.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "VICTOR",
+        "apellidos": "CARRERO LEON",
+        "email": "",
+        "telefono": "",
+        "web": "",
+        "imagen": "notiene.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "MYLIEN",
+        "apellidos": "CHAC PHU",
+        "email": "",
+        "telefono": "",
+        "web": "",
+        "imagen": "notiene.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "TERESA",
+        "apellidos": "DIAZ VELASCO",
+        "email": "",
+        "telefono": "",
+        "web": "",
+        "imagen": "notiene.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "ISABEL",
+        "apellidos": "DORTA RODRIGUEZ",
+        "email": "",
+        "telefono": "",
+        "web": "",
+        "imagen": "notiene.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "SERGIO",
+        "apellidos": "GONZALEZ",
+        "email": "",
+        "telefono": "",
+        "web": "",
+        "imagen": "notiene.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "ANDRES",
+        "apellidos": "HERRERA CONCEPCION",
+        "email": "",
+        "telefono": "",
+        "web": "",
+        "imagen": "notiene.jpg"
+    },
+    {
+        "id": 10,
+        "nombre": "ROMEN",
+        "apellidos": "PADILLA POLEGRE",
+        "email": "",
+        "telefono": "",
+        "web": "",
+        "imagen": "notiene.jpg"
+    },
+    {
+        "id": 11,
+        "nombre": "MICHEL",
+        "apellidos": "ROMANO",
+        "email": "",
+        "telefono": "",
+        "web": "",
+        "imagen": "notiene.jpg"
+    },
+    {
+        "id": 12,
+        "nombre": "BREOGAN",
+        "apellidos": "SOBRAL ASPEREZ",
+        "email": "",
+        "telefono": "",
+        "web": "",
+        "imagen": "notiene.jpg"
+    },
+    {
+        "id": 13,
+        "nombre": "JOSE IGNACIO",
+        "apellidos": "SOTO LEON",
+        "email": "",
+        "telefono": "",
+        "web": "",
+        "imagen": "notiene.jpg"
+    },
+    {
+        "id": 14,
+        "nombre": "JONAY",
+        "apellidos": "SUAREZ LABENA",
+        "email": "",
+        "telefono": "",
+        "web": "",
+        "imagen": "jonay.jpg"
+    },
+    {
+        "id": 15,
+        "nombre": "KEVIN ANTONIO",
+        "apellidos": "SUAREZ SANCHEZ",
+        "email": "",
+        "telefono": "",
+        "web": "",
+        "imagen": "notiene.jpg"
+    }
+]}

@@ -1,0 +1,115 @@
+﻿/* Define custom fonts */
+
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('fonts/ballpark.eot');
+    src: url('fonts/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ballpark.woff') format('woff'),
+         url('fonts/ballpark.ttf') format('truetype'),
+         url('fonts/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('fonts/dayrom.eot');
+    src: url('fonts/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('fonts/dayrom.woff') format('woff'),
+         url('fonts/dayrom.ttf') format('truetype'),
+         url('fonts/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 0.8em;
+}
+
+
+/* Cuerpo de la pagina */
+
+body
+{
+    background: rgb(172, 196, 240);
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+}
+
+#personales {
+    width: 40%;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    background-color: #2196F3;
+  }
+  .elemento {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .imagen {
+      width: 60px;
+      height: 60px;
+  }
+
+/* Ventana Modal */
+.flex{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  .modal{
+    display:none;
+    position: fixed;
+    z-index: 1;
+    overflow: auto;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, 0.452);
+}
+
+.contenido-modal{
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    width: 30%;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .4);
+    animation-name: modal;
+    animation-duration: 1s;
+}
+
+@keyframes modal{
+    from{top: -330px; opacity: 0;}
+    to{top: 0; opacity: 1;}
+}
+
+.close{
+    color: #f2f2f2;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.close:hover{
+    color: #7f8c8d;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-header, .modal-footer{
+    padding: 8px 16px;
+    background: #34495e;
+    color: #f2f2f2;
+}
+
+.modal-body{
+    padding: 20px ; 
+}
+
+

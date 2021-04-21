@@ -1,0 +1,7 @@
+https://www.phparch.com/2017/12/security-corner-php-meet-libsodium/
+
+http://www.cristalab.com/blog/certificados-de-seguridad-y-ssl-bien-explicados-c91629l/
+
+https://stackoverflow.com/questions/17272809/openssl-pkey-export-and-cannot-get-key-from-parameter-1
+Sugerencia:
+Estudiar :https://github.com/paragonie/halite

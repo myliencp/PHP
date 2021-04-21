@@ -1,0 +1,10 @@
+[
+    {
+        "nombre": "Mylien",
+        "apellidos": "Chac Phu",
+        "email": "mylien.chac@gmail.com",
+        "contraseña": "1234",
+        "hash": "cbcb58ac2e496207586df2854b17995f",
+        "vigente": true
+    }
+]

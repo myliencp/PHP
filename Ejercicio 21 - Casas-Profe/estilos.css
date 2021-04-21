@@ -1,0 +1,46 @@
+    header {
+        color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content:right;
+    }
+    
+    #cuerpo {
+        display: flex;
+        flex-direction: row;
+        height: 70vh;
+        width: 100vw;
+        
+    }
+    #lista {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+    #ficha {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        background-color: #cccc33;
+        /* border-radius: 20%; */
+    }
+
+    .contenedor {
+        display: grid;
+        grid-template-columns: .5fr 1fr 2fr .5fr;
+        background-color: #2196F3;
+      }
+    .elemento {
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .imagen {
+        width: 60px;
+        height: 60px;
+    }
+    
+    
+    

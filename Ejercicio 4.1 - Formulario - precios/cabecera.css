@@ -1,0 +1,14 @@
+#titulo1 {
+    font-size: larger;
+}
+#titulo2 {
+    font-size: large;
+}
+header{
+    display: flex;
+    height: 15vh;
+    background-color: #87bd6a;
+}
+#logo {
+    height: 50px;
+}

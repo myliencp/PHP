@@ -1,0 +1,2 @@
+define("util/legacy",["module","jquery"],function(e,t){var i={changeSampleText:function(e,i){var n,a,r=t("samp[title="+i+"]");"string"==typeof e?(n=e,a=e):(n=t(e).val(),a=e.selectedIndex<1?"":e.options[e.selectedIndex].text),r.length&&r.html(a)},checkElement:function(e,i){var n="DialogError";e&&i&&t(e)[""===e.value&&""!==i.value?"addClass":"removeClass"](n)}};return i});
+//@ sourceMappingURL=legacy.js.map

@@ -1,0 +1,2 @@
+define("de_epages",["jquery","ep"],function(e){var t=e(document),a=function(a,i){return new e.fn.init(a,i,t)};return e.extend(!0,a,e),a.fn=e.fn=e.prototype,window.de_epages=a,a});
+//@ sourceMappingURL=de_epages.js.map

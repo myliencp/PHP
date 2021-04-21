@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "descripcion": "Casa familiar",
+      "año" : 2010,
+      "garaje":"para dos coches",
+      "dormitorios": "3",
+      "baños": "2",
+      "superficie": 430,
+       "precio": 240000
+    },
+    {
+      "id": 2,
+      "descripcion": "Casa moderna",
+      "año" : 2015,
+      "garaje":"si",
+      "dormitorios": "2",
+      "baños": "2",
+      "superficie": 320,
+       "precio": 180000
+    },
+    {
+      "id": 3,
+      "descripcion": "Casa rustica",
+      "año" : 1980,
+      "garaje":"no",
+      "dormitorios": "2",
+      "baños": "2",
+      "superficie": 310,
+       "precio": 120000
+    },
+    {
+      "id": 4,
+      "descripcion": "Casa de dos plantas con piscina",
+      "año" : 2005,
+      "garaje":"no",
+      "dormitorios": "4",
+      "baños": "3",
+      "superficie": 350,
+       "precio": 350000
+    },
+    {
+      "id": 5,
+      "descripcion": "Casa moderna con ventanales y piscina",
+      "año" : 2005,
+      "garaje":"no",
+      "dormitorios": "2",
+      "baños": "2",
+      "superficie": 450,
+       "precio": 380000
+    }
+]

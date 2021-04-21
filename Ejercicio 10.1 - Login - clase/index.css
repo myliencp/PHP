@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background: rgb(172, 196, 240);
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+}
+header {
+    height: 13vh;
+}
+.cuerpo {
+    height: 70vh;
+}
+footer {
+    height: 6vh;
+}

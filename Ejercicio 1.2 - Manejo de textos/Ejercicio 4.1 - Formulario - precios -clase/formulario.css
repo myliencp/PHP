@@ -1,0 +1,28 @@
+#cajapadre {
+    background-color: rgb(170, 223, 150);
+    height: 100vh;  
+}
+#caja-1 {
+    margin-left: 5%;
+    height: 70vh;
+}
+
+#cuerpo {
+    display: flex;
+    height: 100vh;  
+}
+#izquierda {
+    width: 35vw;
+    border: 1px solid grey;
+}
+#derecha {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 34vw;
+    border: 1px solid grey;
+}
+#imagen {
+    height : 200px;
+    width: auto;
+}

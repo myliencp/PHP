@@ -1,0 +1,182 @@
+{"coches":[
+    {
+        "id": 1,
+        "marca": "Seat",
+        "año": 9,
+        "kilometraje": 100560,
+        "combustible": "Gasolina",
+        "precio": "5000€",
+        "imagen": "Blue_Diamond.jpg"
+    },
+    {
+        "id": 2,
+        "marca": "Volkswagen",
+        "año": "10",
+        "kilometraje": "125364",
+        "combustible": "Eléctrico",
+        "precio": "5800€",
+        "imagen": "Blue_Sunset.jpg"
+    },
+    {
+        "id": 3,
+        "marca": "Audi",
+        "año": 4,
+        "kilometraje": 45620,
+        "combustible": "Diesel",
+        "precio": "12000€",
+        "imagen": "Classic.jpg"
+    },
+    {
+        "id": 4,
+        "marca": "Land Rover",
+        "año": "3",
+        "kilometraje": "150000",
+        "combustible": "Híbrido",
+        "precio": "5850€",
+        "imagen": "Descapotable_White_Beach.jpg"
+    },
+    {
+        "id": 5,
+        "marca": "Dacia",
+        "año": "7",
+        "kilometraje": "50000",
+        "combustible": "Eléctrico",
+        "precio": "7300€",
+        "imagen": "Family_Saver.jpg"
+    },
+    {
+        "id": 6,
+        "marca": "Porsche",
+        "año": "12",
+        "kilometraje": "75000",
+        "combustible": "Gasolina",
+        "precio": "10500€",
+        "imagen": "Pink_Bright.png"
+    },
+    {
+        "id": 7,
+        "marca": "Lamborghini",
+        "año": "8",
+        "kilometraje": "105836",
+        "combustible": "Diesel",
+        "precio": "12000€",
+        "imagen": "Revolution_Rosa.jpg"
+    },
+    {
+        "id": 8,
+        "marca": "Smart",
+        "año": "1",
+        "kilometraje": "1236",
+        "combustible": "Eléctrico",
+        "precio": "25000€",
+        "imagen": "Smart_Posh.jpg"
+    },
+    {
+        "id": 9,
+        "marca": "Mini Cooper",
+        "año": "12",
+        "kilometraje": "200836",
+        "combustible": "Diesel",
+        "precio": "2800€",
+        "imagen": "Sporty.jpg"
+    },
+    {
+        "id": 10,
+        "marca": "Porsche",
+        "año": "5",
+        "kilometraje": "60836",
+        "combustible": "Híbrido",
+        "precio": "9800€",
+        "imagen": "Turqueise.jpg"
+    },
+    {
+        "id": 11,
+        "marca": "Seat",
+        "año": 11,
+        "kilometraje": 125364,
+        "combustible": "Eléctrico",
+        "precio": "5800€",
+        "imagen": "Dark_Night.jpg"
+    },
+    {
+        "id": 12,
+        "marca": "Seat",
+        "año": "10",
+        "kilometraje": "100560",
+        "combustible": "Gasolina",
+        "precio": "5000€",
+        "imagen": "Day_Nissan.jpg"
+    },
+    {
+        "id": 13,
+        "marca": "Seat",
+        "año": "8",
+        "kilometraje": "105836",
+        "combustible": "Diesel",
+        "precio": "12000€",
+        "imagen": "Family_Trip.jpg"
+    },
+    {
+        "id": 14,
+        "marca": "Seat",
+        "año": "12",
+        "kilometraje": "75000",
+        "combustible": "Gasolina",
+        "precio": "10500€",
+        "imagen": "Ferrari_Blue.jpg"
+    },
+    {
+        "id": 15,
+        "marca": "Seat",
+        "año": "7",
+        "kilometraje": "50000",
+        "combustible": "Eléctrico",
+        "precio": "7300€",
+        "imagen": "Glamour_Platino.jpg"
+    },
+    {
+        "id": 16,
+        "marca": "Seat",
+        "año": "3",
+        "kilometraje": "150000",
+        "combustible": "Híbrido",
+        "precio": "5850€",
+        "imagen": "La_furia.jpg"
+    },
+    {
+        "id": 17,
+        "marca": "Seat",
+        "año": "5",
+        "kilometraje": "45620",
+        "combustible": "Diesel",
+        "precio": "12000€",
+        "imagen": "Red_Furious.jpg"
+    },
+    {
+        "id": 18,
+        "marca": "Smart",
+        "año": "1",
+        "kilometraje": "1236",
+        "combustible": "Eléctrico",
+        "precio": "25000€",
+        "imagen": "Style_Red.jpg"
+    },
+    {
+        "id": 19,
+        "marca": "Mini Cooper",
+        "año": "12",
+        "kilometraje": "200836",
+        "combustible": "Diesel",
+        "precio": "2800€",
+        "imagen": "jeep-wranger-portada_8.jpg"
+    },
+    {
+        "id": 20,
+        "marca": "Fiat Punto",
+        "año": 9,
+        "kilometraje": 50000,
+        "combustible": "Gasolina",
+        "precio": "6000€",
+        "imagen": "Fiat-Punto-5P_2012_C01.jpg"
+    }
+]}
